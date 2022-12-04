@@ -1,9 +1,7 @@
 use std::string::ToString;
 
-use crate::days::day2::People::{Draw, Me, Oppo};
 use crate::days::day2::people::People;
 use crate::days::day2::round::Round;
-use crate::days::day2::Shape::{A, B, C};
 use crate::days::day2::shape::Shape;
 
 mod people;

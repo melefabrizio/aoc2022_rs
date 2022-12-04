@@ -1,5 +1,5 @@
 fn find_common(input: (&str, &str)) -> Option<char> {
-    for (i, c) in input.0.chars().enumerate() {
+    for (_i, c) in input.0.chars().enumerate() {
         for c2 in input.1.chars() {
             if c == c2 {
                 return Some(c);
@@ -10,7 +10,7 @@ fn find_common(input: (&str, &str)) -> Option<char> {
 }
 
 fn find_common_triple(input: (&str, &str, &str)) -> Option<char> {
-    for (i, c) in input.0.chars().enumerate() {
+    for (_i, c) in input.0.chars().enumerate() {
         for c2 in input.1.chars() {
             if c == c2 {
                 for c3 in input.2.chars() {
@@ -39,7 +39,7 @@ fn priority(c: Option<char>) -> i32 {
 
 pub(crate) fn run() {
     let input = include_str!("actual.txt");
-    let mut lines = input.lines();
+    let lines = input.lines();
     let mut priorities: Vec<i32> = vec![];
 
     for line in lines {

@@ -1,5 +1,5 @@
 use crate::days::day2::people::People;
-use crate::days::day2::people::People::{Me, Oppo};
+use crate::days::day2::people::People::{Draw, Me, Oppo};
 use crate::days::day2::Shape;
 use crate::days::day2::Shape::{A, B, C};
 
