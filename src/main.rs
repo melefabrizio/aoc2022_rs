@@ -45,7 +45,11 @@ mod tests {
     }
 
     #[bench]
-    fn bench_day5(b: &mut Bencher) {
-        b.iter(|| days::day5::run());
+    fn bench_day5_p1(b: &mut Bencher) {
+        b.iter(|| days::day5::part1());
+    }
+    #[bench]
+    fn bench_day5_p2(b: &mut Bencher) {
+        b.iter(|| days::day5::part2());
     }
 }
