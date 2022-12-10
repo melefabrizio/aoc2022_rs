@@ -70,25 +70,25 @@ mod tests {
     //     b.iter(|| days::day4::run());
     // }
     //
-    #[bench]
-    fn bench_day5_p1(b: &mut Bencher) {
-        b.iter(|| days::day5::part1());
-    }
-
-    #[bench]
-    fn bench_day5_p2(b: &mut Bencher) {
-        b.iter(|| days::day5::part2());
-    }
-
-    #[bench]
-    fn bench_day6_p1(b: &mut Bencher) {
-        b.iter(|| days::day6::part1());
-    }
-
-    #[bench]
-    fn bench_day6_p2(b: &mut Bencher) {
-        b.iter(|| days::day6::part2());
-    }
+    // #[bench]
+    // fn bench_day5_p1(b: &mut Bencher) {
+    //     b.iter(|| days::day5::part1());
+    // }
+    //
+    // #[bench]
+    // fn bench_day5_p2(b: &mut Bencher) {
+    //     b.iter(|| days::day5::part2());
+    // }
+    //
+    // #[bench]
+    // fn bench_day6_p1(b: &mut Bencher) {
+    //     b.iter(|| days::day6::part1());
+    // }
+    //
+    // #[bench]
+    // fn bench_day6_p2(b: &mut Bencher) {
+    //     b.iter(|| days::day6::part2());
+    // }
 
     #[bench]
     fn bench_day9_p1(b: &mut Bencher) {
